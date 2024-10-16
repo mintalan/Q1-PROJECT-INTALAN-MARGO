@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shop</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <style>
+nav {
+     background-color: #333;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left, .right {
+    display: flex;
+}
+
+nav ul li {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.center {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.full-width-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    max-height: 60vh; 
+}
+
+.product-table {
+    width: 60%; 
+    margin: 0 auto; 
+}
+
+.product-image {
+    width: 150px; 
+    height: auto; 
+}
+
+    </style>
+<body>
+    <nav>
+        <ul>
+            <div class="left">
+                <li><a href="index.html">Online Shop</a></li>
+            </div>
+            <div class="center">
+                <li><a href="index.html">Shop</a></li>
+            </div>
+            <div class="right">
+                <li><a href="loginpage.html">Login</a></li>
+                <li><a href="signuppage.html">Signup</a></li>
+            </div>
+        </ul>
+    </nav>
+    <div>
+        <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3bbecbdf584e40398446a8bf0117cf62_9366/Samba_OG_Shoes_White_B75806_01_standard.jpg" class="full-width-image">
+    </div>
+    <div>
+        <img>
+        <img>
+        <img>
+    </div>
+    <div>
+        <a href="cart.html" style="text-decoration: none; color: inherit;">
+            <table class="table product-table">
+                <tbody>
+                    <tr>
+                        <td><img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3bbecbdf584e40398446a8bf0117cf62_9366/Samba_OG_Shoes_White_B75806_01_standard.jpg" alt="Adidas Samba OG Shoes" class="product-image"></td>
+                        <td><img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/4659ee058ba34bd2a5d0af500104c17d_9366/Campus_00s_Shoes_Black_HQ8708_01_standard.jpg" alt="Adidas Campus 00s Shoes - Black" class="product-image"></td>
+                        <td><img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/ce738cbe5342421996feaf5001044964_9366/Campus_00s_Shoes_Grey_HQ8707_01_standard.jpg" alt="Adidas Campus 00s Shoes - Grey" class="product-image"></td>
+                        <td><img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/61f87dec481e4512823ea7fb0080ba1a_9366/Gazelle_Shoes_Black_BB5476_01_standard.jpg" alt="Adidas Gazelle Shoes - Black" class="product-image"></td>
+                    </tr>
+                    <tr>
+                        <td>Adidas Samba OG Shoes - White</td>
+                        <td>Adidas Campus 00s Shoes - Black</td>
+                        <td>Adidas Campus 00s Shoes - Grey</td>
+                        <td>Adidas Gazelle Shoes - Black</td>
+                    </tr>
+                    <tr>
+                        <td>Php 6,800</td>
+                        <td>Php 5,000</td>
+                        <td>Php 5,000</td>
+                        <td>Php 5,500</td>
+                    </tr>
+                    <tr>
+                        <td><img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/0bcbdc2aae394d9b829baf46003103b7_9366/Daily_3.0_Shoes_Burgundy_HP6031_01_standard.jpg" class="product-image"></td>
+                        <td><img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/011744ef273d4a66b9cc880b980340a2_9366/Samba_OG_Shoes_White_ID0478_01_standard.jpg" class="product-image"></td>
+                        <td><img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/89afa6a48d7d4732b8daaead00ed1b45_9366/Start_Your_Run_Shoes_Black_GY9234_01_standard.jpg" class="product-image"></td>
+                        <td><img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/e20501d84b324a3bbcdfafd30105a5fb_9366/Country_OG_Shoes_White_IF2856_01_standard.jpg" class="product-image"></td>
+                    </tr>
+                    <tr>
+                        <td>Adidas Run 60s 2.0 Shoes- Burgundy</td>
+                        <td>Adidas Samba OG Shoes - White</td>
+                        <td>Adidas Start Your Run Shoes</td>
+                        <td>Adidas Gazelle Shoes - Black</td>
+                    </tr>
+                    <tr>
+                        <td>Php 2,450</td>
+                        <td>Php 6,800</td>
+                        <td>Php 3,800</td>
+                        <td>Php 7,700</td>
+                    </tr>
+                </tbody>
+            </table>
+        </a>
+        
+    </div>
+</body>
+</html>

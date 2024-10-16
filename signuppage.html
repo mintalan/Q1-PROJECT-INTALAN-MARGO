@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samba OG Shoes - Sign Up</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: white;
+            background-image: none;
+            font-family: "Quicksand", sans-serif;
+            color: black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        nav {
+            width: 100%;
+            background-color: #333;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-around;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+
+        nav ul li a:hover {
+            background-color: #555;
+            border-radius: 5px;
+        }
+
+        form {
+            background-color: #f0f0f0;
+            padding: 20px;
+            border: 2px solid black;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        img {
+            width: 150px;
+            border-radius: 100px;
+            border: 2px solid black;
+        }
+
+        input {
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid black;
+            border-radius: 5px;
+            width: 80%;
+        }
+
+        input[type="submit"] {
+            background-color: black;
+            color: white;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Online Shop</a></li> 
+            <li><a href="index.html">Shop</a></li> 
+            <li><a href="loginpage.html">Login</a></li> 
+            <li><a href="signuppage.html">Signup</a></li> 
+        </ul>
+    </nav>
+
+    <div class="container">
+        <form>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQKSMENDgg3GsCIBandUGWBugOPsGB56kosGuZiSlXhjRlnsH3awBCLDuQriqNGGXvSxo&usqp=CAU" alt="Profile Picture"> <br />
+            <h2>SIGN UP</h2>
+            <label>Username:</label><br>
+            <input type="text" required><br>
+
+            <label>Email:</label><br>
+            <input type="email" required><br>
+
+            <label>Password:</label><br>
+            <input type="password" required><br>
+
+            <label>Confirm Password:</label><br>
+            <input type="password" required><br>
+
+            <input type="submit" value="SUBMIT">
+        </form>
+    </div>
+</body>
+
+</html>
